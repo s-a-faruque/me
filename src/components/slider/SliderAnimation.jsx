@@ -1,16 +1,14 @@
 import React from "react";
 
 const conctInfo = {
-  phone: "+04 6545-9535-6515",
-  email: " nairobi-designer@domain.com",
+  phone: "+1 902 441 9688",
+  email: "safique.a.faruque@gmail.com",
 };
 
 const sliderContent = {
-  name: "Nairobi Gadot",
-  designation: "Full-stack Developer",
-  description: `I design and develop services for customers of all sizes,
-  specializing in creating stylish, modern websites, web
-  services and online stores.`,
+  name: "Safique A Faruque",
+  designation: "Software Architecture and Hands-on Developer",
+  description: `I develop robust systems.`,
   btnText: " Donwload CV",
 };
 
@@ -22,7 +20,7 @@ const Slider = () => {
         <div className="hb-top-fixed d-flex">
           <div className="hb-info">
             <a href="tel:+04 6545-9535-6515">{conctInfo.phone}</a>
-            <a href="mailto:mail%20to:ibthemes21@gmail.com,com">
+            <a href="mailto:${conctInfo.phone}">
               {conctInfo.email}
             </a>
           </div>
