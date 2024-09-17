@@ -1,5 +1,4 @@
 import React from "react";
-import TextLoop from "react-text-loop";
 
 const sliderContent = {
   name: "Risue Nairobi",
@@ -28,11 +27,7 @@ const SliderTwo = () => {
               <div className="type-box">
                 <h6>Hello, My name is</h6>
                 <h1 className="font-alt">{sliderContent.name}</h1>
-                <TextLoop>
-                  <p className="loop-text lead"> Software Engineer</p>
-                  <p className="loop-text lead">Visual Designer</p>
-                  <p className="loop-text lead"> Grphic Designer</p>
-                </TextLoop>{" "}
+                {" "}
                 <p className="desc">{sliderContent.description}</p>
                 <div className="mt-4">
                   <a

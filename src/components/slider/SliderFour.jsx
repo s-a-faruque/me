@@ -1,5 +1,4 @@
 import React from "react";
-import TextLoop from "react-text-loop";
 
 const sliderContent = {
   name: "John Smith",
@@ -44,11 +43,7 @@ const SliderFour = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  <TextLoop>
-                    <p className="loop-text lead"> Content Writter</p>
-                    <p className="loop-text lead">Youtuber</p>
-                    <p className="loop-text lead">Photographer</p>
-                  </TextLoop>
+                  <p className="loop-text lead"> Content Writter</p>
                 </div>
 
                 <p

@@ -1,5 +1,4 @@
 import React from "react";
-import TextLoop from "react-text-loop";
 
 const conctInfo = {
   phone: "+04 6545-9535-6515",
@@ -60,11 +59,7 @@ const Slider = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  <TextLoop>
-                    <p className="loop-text lead">Full-stack Developer</p>
-                    <p className="loop-text lead"> UI/UX Designer</p>
-                    <p className="loop-text lead"> App Developer</p>
-                  </TextLoop>
+                  <p className="loop-text lead">Full-stack Developer</p>
                 </div>
 
                 <p

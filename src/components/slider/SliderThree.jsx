@@ -1,5 +1,4 @@
 import React from "react";
-import TextLoop from "react-text-loop";
 import Particles from "react-tsparticles";
 
 const sliderContent = {
@@ -131,11 +130,6 @@ const SliderTwo = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  <TextLoop>
-                    <p className="loop-text lead"> Software Engineer</p>
-                    <p className="loop-text lead">Visual Designer</p>
-                    <p className="loop-text lead"> Grphic Designer</p>
-                  </TextLoop>
                 </div>
                 <p
                   className="desc"
