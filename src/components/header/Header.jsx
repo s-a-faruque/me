@@ -40,7 +40,7 @@ const Header = () => {
 
           <Scrollspy
             className="nav nav-menu"
-            items={["home", "about", "resume", "work", "blog", "contactus"]}
+            items={["home", "about", "resume"]}
             currentClassName="active"
             offset={-30}
           >
@@ -98,63 +98,6 @@ const Header = () => {
                   effect="float"
                 >
                   <span>Resume</span>
-                </ReactTooltip>
-              </a>
-            </li>
-            <li>
-              <a
-                className="nav-link"
-                href="#work"
-                data-tip
-                data-for="WORK"
-                onClick={handleClick}
-              >
-                <FiBriefcase />
-                <ReactTooltip
-                  id="WORK"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>Work</span>
-                </ReactTooltip>
-              </a>
-            </li>
-            <li>
-              <a
-                className="nav-link"
-                href="#blog"
-                data-tip
-                data-for="BLOG"
-                onClick={handleClick}
-              >
-                <FaBlog />
-                <ReactTooltip
-                  id="BLOG"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>Blog</span>
-                </ReactTooltip>
-              </a>
-            </li>
-            <li>
-              <a
-                className="nav-link"
-                href="#contactus"
-                data-tip
-                data-for="CONTACT"
-                onClick={handleClick}
-              >
-                <FiPhoneOutgoing />
-                <ReactTooltip
-                  id="CONTACT"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>Contact</span>
                 </ReactTooltip>
               </a>
             </li>

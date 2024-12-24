@@ -18,7 +18,7 @@ const About = () => {
               <div className="about-me">
                 <div className="img">
                   <div className="img-in">
-                    <img src="img/about/about-me.jpg" alt="about" />
+                    <img src="img/about/about-me-4.jpeg" alt="about" />
                   </div>
 
                   <Social />
@@ -26,10 +26,10 @@ const About = () => {
                   {/* End social icon */}
                 </div>
                 {/* End img */}
-                <div className="info">
+                {/* <div className="info">
                   <p>Ux/Ui Designer</p>
                   <h3>Nairobi Gadot</h3>
-                </div>
+                </div> */}
                 {/* End info */}
               </div>
               {/* End about-me */}
@@ -49,16 +49,13 @@ const About = () => {
 
                 <div className="about-text">
                   <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
+                    A Software Engineer and Leader with 15+ years of experience in full-stack development, system architecture, and leading engineering teams. 
+                    Passionate about designing scalable web applications, mentoring engineers, and delivering high-quality solutions. 
+                    Expertise in cross-functional collaboration, technical roadmaps, and implementing best practices in distributed, agile environments.
                   </p>
                   <p>
-                    I'm a Freelancer Front-end Developer with over 3 years of
-                    experience. I'm from San Francisco. I code and create web
-                    elements for amazing people around the world. I like work
-                    with new people. New people new Experiences.
+                  I was part of the early stage team members of iMoney Group and helped expand the tech team from 4 to 15 and established scrum among the teams. My strength is in 
+                  building world-class engineering teams and set the tone for the team that makes great products. 
                   </p>
                 </div>
                 <div className="info-list">
@@ -67,19 +64,12 @@ const About = () => {
                       <ul>
                         <li>
                           <label>Name: </label>
-                          <span>Nairobi Gadot</span>
+                          <span>Safique Faruque</span>
                         </li>
-                        <li>
-                          <label>Birthday: </label>
-                          <span>4th April 1994</span>
-                        </li>
-                        <li>
-                          <label>Age: </label>
-                          <span>26 years</span>
-                        </li>
+                        
                         <li>
                           <label>Address: </label>
-                          <span>San Francisco</span>
+                          <span>Nova Scotia, Canada</span>
                         </li>
                       </ul>
                     </div>
@@ -87,15 +77,11 @@ const About = () => {
                       <ul>
                         <li>
                           <label>Phone: </label>
-                          <span>(+38) 469 2344 2364</span>
+                          <span>(+1) 902 441 9688</span>
                         </li>
                         <li>
                           <label>Email: </label>
-                          <span>info@domainname.com</span>
-                        </li>
-                        <li>
-                          <label>Skype: </label>
-                          <span>nairob.40</span>
+                          <span>safique.a.faruque@gmail.com</span>
                         </li>
                         <li>
                           <label>Freelance: </label>
@@ -141,26 +127,26 @@ const About = () => {
           ></div>
           {/* End separated */}
 
-          <div className="title">
+          {/* <div className="title">
             <h3>Awards.</h3>
           </div>
 
-          <Awards />
+          <Awards /> */}
           {/* End Awards */}
 
           {/* separated */}
-          <div
+          {/* <div
             className="separated"
             style={{
               backgroundImage: `url(${
                 process.env.PUBLIC_URL + "img/border-dark.png"
               })`,
             }}
-          ></div>
+          ></div> */}
           {/* End separated */}
 
           <div className="title">
-            <h3>Testimonials.</h3>
+            <h3>Recommendations</h3>
           </div>
 
           <Testimonials />

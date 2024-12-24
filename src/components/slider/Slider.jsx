@@ -6,7 +6,7 @@ const conctInfo = {
 };
 
 const sliderContent = {
-  name: "Nairobi Gadot",
+  name: "Safique A Faruque",
   description: `I design and develop services for customers of all sizes,
   specializing in creating stylish, modern websites, web
   services and online stores.`,
@@ -25,22 +25,12 @@ const Slider = () => {
               {conctInfo.email}
             </a>
           </div>
-          <div className="hb-lang">
-            <ul className="nav">
-              <li className="active">
-                <a href="#">EN</a>
-              </li>
-              <li>
-                <a href="#">FR</a>
-              </li>
-            </ul>
-          </div>
         </div>
         {/* End hp-top-fixed */}
 
         <div className="container">
           <div className="row full-screen align-items-center">
-            <div className="col-lg-7">
+            <div className="col-lg-6">
               <div className="type-box">
                 <h6>Hello, My name is</h6>
                 <h1 className="font-alt">{sliderContent.name}</h1>

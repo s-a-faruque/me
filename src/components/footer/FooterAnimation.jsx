@@ -8,11 +8,7 @@ import {
 } from "react-icons/fa";
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-  { Social: <FaTwitter />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-  { Social: <FaLinkedinIn />, link: "https://twitter.com/" },
-  { Social: <FaPinterestP />, link: "https://www.pinterest.com/" },
+  { Social: <FaLinkedinIn />, link: "https://linkedin.com/in/safaruque" },
 ];
 
 const Footer = () => {
@@ -34,13 +30,6 @@ const Footer = () => {
         <div className="col-md-6 my-2 text-center text-md-end">
           <p>
             © {new Date().getFullYear()} copyright{" "}
-            <a
-              href="https://themeforest.net/user/ib-themes/portfolio"
-              target="_blank"
-              rel="noreferrer"
-            >
-              ib-themes
-            </a>{" "}
             all right reserved
           </p>
         </div>

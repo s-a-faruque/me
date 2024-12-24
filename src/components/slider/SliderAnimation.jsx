@@ -7,9 +7,9 @@ const conctInfo = {
 
 const sliderContent = {
   name: "Safique A Faruque",
-  designation: "Software Architecture and Hands-on Developer",
-  description: `I develop robust systems.`,
-  btnText: " Donwload CV",
+  designation: "Experienced Software Engineer",
+  description: `With over 15 years of experience in software development, I specialize in designing and implementing scalable web applications and integrating complex data systems.`,
+  btnText: "Download CV",
 };
 
 const Slider = () => {
@@ -24,26 +24,13 @@ const Slider = () => {
               {conctInfo.email}
             </a>
           </div>
-          <div className="hb-lang">
-            <ul className="nav">
-              <li className="active">
-                <a href="#">EN</a>
-              </li>
-              <li>
-                <a href="#">FR</a>
-              </li>
-            </ul>
-          </div>
         </div>
         {/* End hp-top-fixed */}
 
         <div className="container">
           <div className="row full-screen align-items-center">
-            <div className="col-lg-7">
+            <div className="col-lg-6">
               <div className="type-box">
-                <h6 data-aos="fade-up" data-aos-duration="1200">
-                  Hello, My name is
-                </h6>
                 <h1
                   className="font-alt"
                   data-aos="fade-up"
@@ -57,7 +44,7 @@ const Slider = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  <p className="loop-text lead">Full-stack Developer</p>
+                  <p className="loop-text lead">{sliderContent.designation}</p>
                 </div>
 
                 <p
@@ -76,7 +63,7 @@ const Slider = () => {
                 >
                   <a
                     className="px-btn px-btn-white"
-                    href="img/resume.png"
+                    href="https://drive.google.com/file/d/1rz7Gu46cCywLaMwXbClXcVmfCgruCNCF/view?usp=sharing"
                     download
                   >
                     {sliderContent.btnText}

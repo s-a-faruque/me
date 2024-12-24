@@ -3,61 +3,45 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
   {
-    jobPosition: `Sr. Front-end Engineer`,
-    jobType: `Google | Remote`,
-    jobDuration: `Feb 2021 - Present`,
+    jobPosition: `Engineer 3`,
+    jobType: `Remote`,
+    jobDuration: `Mar 2021 - Present`,
     timeDuraton: `Full Time`,
-    compnayName: "Google LLC",
-    jobDescription: `Adipisicing Lorem ipsum dolor sit amet, consectetur elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    compnayName: "Proposify Inc",
+    jobDescription: `Architected and implemented scalable public APIs to enhance developer access and integration, 
+    employing OpenAPI for specifications and Redoc for dynamic documentation.`,
     delayAnimation: "",
   },
   {
-    jobPosition: `Visual Designer`,
-    jobType: `Ridian | Remote`,
-    jobDuration: `Mar 2020 - Present`,
-    timeDuraton: `Part Time`,
-    compnayName: "Ridian IT",
-    jobDescription: `Ut enim ad minim veniam, quis nostrud exercitation ullamco
-    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-    irure dolor. Lorem ipsum dolor sit amet, consectetur
-    adipisicing elit, sed do eiusmod tempor incididunt ut
-    labore et dolore magna aliqua.`,
+    jobPosition: `Software Development Lead`,
+    jobType: `iPrice`,
+    jobDuration: `July 2020 - Dec 2020`,
+    timeDuraton: `Full Time`,
+    compnayName: "iPrice Group",
+    jobDescription: `Led 3 integration projects with e-wallets and super apps with a team of 10 members`,
     delayAnimation: "100",
   },
   {
-    jobPosition: `Animation Artist`,
-    jobType: `IbThemes | Remote`,
-    jobDuration: `Jan 2019 - Present`,
+    jobPosition: `Technical Lead`,
+    jobType: ``,
+    jobDuration: `July 2014 - May 2020`,
     timeDuraton: `Full Time`,
-    compnayName: "IB Themes",
-    jobDescription: ` Consectetur adipisicing elit,lorem ipsum dolor sit amet,
-    sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    Duis aute irure dolor.`,
+    compnayName: "Intelligent Money Sdn. Bhd",
+    jobDescription: `Integrated CRM system with top financial organizations of South East Asia like Citibank, HSBC, RHB, Hollard, Tunaiku etc`,
     delayAnimation: "200",
   },
 ];
 
 const educatonContent = [
   {
-    passingYear: "2018-2020",
-    degreeTitle: "Ph.D in Horriblensess",
-    instituteName: "University Of Evil Doing",
+    passingYear: "2009-2014",
+    degreeTitle: "M.Sc in CSE",
+    instituteName: "Bangladesh University Of Engineering and Technology",
   },
   {
-    passingYear: "2013-2016",
-    degreeTitle: "Bsc. in Computer Science",
-    instituteName: "World University",
-  },
-  {
-    passingYear: "2010-2012",
-    degreeTitle: "Graphic Artist Training ",
-    instituteName: "Graphic Master Institute",
+    passingYear: "2004-2016",
+    degreeTitle: "B.Sc in CSE",
+    instituteName: "University of Dhaka",
   },
 ];
 
@@ -116,7 +100,7 @@ const Resume = () => {
 
           <div className="row align-items-center">
             <div
-              className="col-lg-4 m-15px-tb"
+              className="col-lg-12 m-15px-tb"
               data-aos="fade-up"
               data-aos-duration="1200"
             >
@@ -132,14 +116,14 @@ const Resume = () => {
             </div>
             {/* End .col */}
 
-            <div
+            {/* <div
               className="col-lg-7 ml-auto m-15px-tb"
               data-aos="fade-up"
               data-aos-duration="1200"
               data-aos-delay="200"
             >
               <Skills />
-            </div>
+            </div> */}
             {/* End .col */}
           </div>
         </div>
