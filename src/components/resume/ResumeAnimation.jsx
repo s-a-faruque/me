@@ -3,9 +3,18 @@ import Skills from "../skills/Skills";
 
 const resumeContent = [
   {
+    jobPosition: `Technical Architect`,
+    jobType: `Remote`,
+    jobDuration: `Feb 2025 - Present`,
+    timeDuraton: `Full Time`,
+    compnayName: "Government of Nova Scotia",
+    jobDescription: `Own the architecture of the system and deployment pipeline`,
+    delayAnimation: "",
+  },
+  {
     jobPosition: `Engineer 3`,
     jobType: `Remote`,
-    jobDuration: `Mar 2021 - Present`,
+    jobDuration: `Mar 2021 - Feb 2025`,
     timeDuraton: `Full Time`,
     compnayName: "Proposify Inc",
     jobDescription: `Architected and implemented scalable public APIs to enhance developer access and integration, 
@@ -133,3 +142,4 @@ const Resume = () => {
 };
 
 export default Resume;
+
