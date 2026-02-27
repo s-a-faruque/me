@@ -1,4 +1,4 @@
-# Nairo React Personal Portfolio Template
+# React Personal Portfolio Template
 
 ## Description
 
