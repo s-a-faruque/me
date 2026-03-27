@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import { Link } from "react-router-dom";
-import ReactTooltip from "react-tooltip";
 import {
   FiUser,
   FiBriefcase,
@@ -18,7 +17,7 @@ const Header = () => {
     <>
       {/* Header */}
       <div className="mob-header">
-        <button className="toggler-menu" onClick={handleClick}>
+        <button className="toggler-menu" onClick={handleClick} aria-label="Toggle menu">
           <div className={click ? "active" : ""}>
             <span></span>
             <span></span>
@@ -29,7 +28,7 @@ const Header = () => {
       {/* End Header */}
 
       {/* nav bar */}
-      <header className={click ? "header-left menu-open" : "header-left "}>
+      <header className={click ? "header-left header-menu-style-two menu-open" : "header-left header-menu-style-two"}>
         <div className="scroll-bar">
           <div className="hl-top">
             <div className="hl-logo">
@@ -45,60 +44,21 @@ const Header = () => {
             offset={-30}
           >
             <li>
-              <a
-                className="nav-link "
-                href="#home"
-                data-tip
-                data-for="HOME"
-                onClick={handleClick}
-              >
+              <a className="nav-link" href="#home" aria-label="Home" onClick={handleClick}>
                 <FaHome />
-                <ReactTooltip
-                  id="HOME"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>Home</span>
-                </ReactTooltip>
+                <span className="item">Home</span>
               </a>
             </li>
             <li>
-              <a
-                className="nav-link"
-                href="#about"
-                data-tip
-                data-for="ABOUT"
-                onClick={handleClick}
-              >
+              <a className="nav-link" href="#about" aria-label="About" onClick={handleClick}>
                 <FiUser />
-                <ReactTooltip
-                  id="ABOUT"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>About</span>
-                </ReactTooltip>
+                <span className="item">About</span>
               </a>
             </li>
             <li>
-              <a
-                className="nav-link"
-                href="#resume"
-                data-tip
-                data-for="RESUME"
-                onClick={handleClick}
-              >
+              <a className="nav-link" href="#resume" aria-label="Resume" onClick={handleClick}>
                 <FiFileText />
-                <ReactTooltip
-                  id="RESUME"
-                  place="right"
-                  type="dark"
-                  effect="float"
-                >
-                  <span>Resume</span>
-                </ReactTooltip>
+                <span className="item">Resume</span>
               </a>
             </li>
           </Scrollspy>

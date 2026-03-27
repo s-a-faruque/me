@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../components/header/Header";
 import Slider from "../../components/slider/SliderAnimation";
 import About from "../../components/about/AboutAnimation";
@@ -12,10 +12,15 @@ import Footer from "../../components/footer/FooterAnimation";
 import useDocumentTitle from "../../components/useDocumentTitle";
 
 const HomeOne = () => {
-  useDocumentTitle(
-    "Safique || Software Engineer"
-  );
-  document.body.classList.add("theme-light");
+  useDocumentTitle("Safique || Software Engineer");
+
+  useEffect(() => {
+    document.body.classList.add("theme-light");
+    return () => {
+      document.body.classList.remove("theme-light");
+    };
+  }, []);
+
   return (
     <div className="main-left">
       <Header />
