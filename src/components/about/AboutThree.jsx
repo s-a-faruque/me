@@ -1,4 +1,3 @@
-import React from "react";
 import Social from "../Social";
 import Testimonials from "../testimonial/TestimonialAnimation";
 import Services from "../service/ServiceAnimation";
