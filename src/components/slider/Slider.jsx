@@ -1,5 +1,3 @@
-import React from "react";
-
 const conctInfo = {
   phone: "+04 6545-9535-6515",
   email: " nairobi-designer@domain.com",

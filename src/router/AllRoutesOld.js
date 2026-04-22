@@ -1,4 +1,3 @@
-import React from "react";
 import Preview from "../views/Preview";
 import LightProfessionalAnimation from "../views/all-home-version/LightProfessionalAnimation";
 import HomeLightProfessional2 from "../views/all-home-version/HomeLightProfessional2";

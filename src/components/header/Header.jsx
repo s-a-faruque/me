@@ -1,13 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Scrollspy from "react-scrollspy";
 import { Link } from "react-router-dom";
 import {
   FiUser,
-  FiBriefcase,
   FiFileText,
-  FiPhoneOutgoing,
 } from "react-icons/fi";
-import { FaHome, FaBlog } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 
 const Header = () => {
   const [click, setClick] = useState(false);

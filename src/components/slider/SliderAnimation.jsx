@@ -1,4 +1,3 @@
-import React from "react";
 
 const conctInfo = {
   phone: "+1 902 441 9688",

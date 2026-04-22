@@ -1,4 +1,3 @@
-import React from "react";
 import PreviewDemoGallery from "../components/PreviewDemoGallery";
 import useDocumentTitle from "../components/useDocumentTitle";
 
