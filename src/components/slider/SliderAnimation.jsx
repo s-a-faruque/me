@@ -88,7 +88,7 @@ const Slider = () => {
           className="hb-me"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/home-banner-illustrated.jpg"
+              process.env.PUBLIC_URL + "img/slider/home_banner_white.jpg"
             })`,
           }}
         ></div>
