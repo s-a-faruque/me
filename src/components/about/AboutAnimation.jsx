@@ -47,7 +47,7 @@ const About = () => {
 
                 <div className="about-text">
                   <p>
-                    A Software Engineer and Leader with 15+ years of experience in full-stack development, system architecture, and leading engineering teams. 
+                    A Software Engineer and Leader with 18+ years of experience in full-stack development, system architecture, and leading engineering teams. 
                     Passionate about designing scalable web applications, mentoring engineers, and delivering high-quality solutions. 
                     Expertise in cross-functional collaboration, technical roadmaps, and implementing best practices in distributed, agile environments.
                   </p>
