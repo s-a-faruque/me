@@ -81,10 +81,6 @@ const About = () => {
                           <label>Email: </label>
                           <span>safique.a.faruque@gmail.com</span>
                         </li>
-                        <li>
-                          <label>Freelance: </label>
-                          <span>Available</span>
-                        </li>
                       </ul>
                     </div>
                   </div>
